@@ -36,3 +36,281 @@
     transform: rotate(360deg);
   }
 }
+
+.half-background {
+  position: absolute;
+  width: 731px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary - 400 */
+
+  background: #f58d50;
+}
+
+.kerry-logo {
+  /* kerryexpress_logo_white */
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 18px;
+  top: 18px;
+}
+
+.box {
+  position: absolute;
+  width: 750px;
+  height: 820px;
+  left: 356px;
+  top: 102px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.welcome {
+  /* Welcome to Kerry Express */
+
+  position: absolute;
+  width: 269px;
+  height: 36px;
+  left: 60px;
+  top: 40px;
+
+  /* Lead Text 2 - 21 Regular */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+
+.kerry-express {
+  color: #f58d50;
+}
+
+.account {
+  /* Have an Account ? Sign in */
+
+  position: absolute;
+  width: 111px;
+  height: 32px;
+  left: 550px;
+  top: 50px;
+
+  /* Body 2 - 14 Regular */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  color: #8d8d8d;
+}
+
+.sign-up {
+  /* Sign up */
+
+  position: absolute;
+  width: 193px;
+  height: 92px;
+  left: 60px;
+  top: 60px;
+
+  /* Large Heading - h3 58 px */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 92px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.frame {
+  /* Frame 1000000819 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
+
+  position: absolute;
+  width: 431px;
+  height: 508px;
+  left: 140px;
+  top: 225px;
+}
+
+.label {
+  /* Label */
+
+  width: 255px;
+  height: 28px;
+
+  /* Subtitle 2 - 14 Bold */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  /* Gray - Title */
+
+  color: #262626;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+input {
+  /* _base/Forms/01. Input/02. Default */
+  /* text-align: center; */
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+
+  width: 431px;
+  height: 44px;
+
+  /* Global/09. White */
+
+  background: #ffffff;
+  /* Gray: Border */
+
+  border: 1px solid #d8d8d8;
+  /* Card - Drop shadow */
+
+  box-shadow: 0px 2px 10px rgba(190, 190, 190, 0.25);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+button {
+  /* Btn:primary/main */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 10px;
+
+  position: absolute;
+  left: 45.94%;
+  right: 46.01%;
+  top: 89.32%;
+  bottom: 13.38%;
+
+  /* Brand Primary */
+
+  background: #f37024;
+  border-radius: 4px;
+}
+
+.front {
+  /* Button */
+
+  width: 52px;
+  height: 16px;
+
+  /* Text Button (44) - 14 Bold */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* Gray_02/10 */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.eiei{
+  margin-left: -6px;
+}
+
+.vector1{
+  position: absolute;
+left: 2.5%;
+right: 0%;
+top: 9.3%;
+bottom: 0%;
+}
+
+.vector2{
+position: absolute;
+left: 2.5%;
+right: 0%;
+top: 28.3%;
+bottom: 0%;
+}
+
+.vector3{
+  position: absolute;
+  left: 2.5%;
+  right: 0%;
+  top: 47.3%;
+  bottom: 0%;
+}
+
+.vector4{
+  position: absolute;
+  left: 2.5%;
+  right: 0%;
+  top: 66.3%;
+  bottom: 0%;
+}
+
+.vector5{
+  position: absolute;
+  left: 2.5%;
+  right: 0%;
+  top: 85.3%;
+  bottom: 0%;
+}
+

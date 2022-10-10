@@ -124,7 +124,7 @@
   width: 193px;
   height: 92px;
   left: 60px;
-  top: 60px;
+  top: 75px;
 
   /* Large Heading - h3 58 px */
 
@@ -153,14 +153,14 @@
   width: 431px;
   height: 508px;
   left: 140px;
-  top: 225px;
+  top: 210px;
 }
 
 .label {
   /* Label */
 
   width: 255px;
-  height: 28px;
+  height: 50px;
 
   /* Subtitle 2 - 14 Bold */
 
@@ -278,7 +278,7 @@ button {
   position: absolute;
 left: 2.5%;
 right: 0%;
-top: 9.3%;
+top: 7.5%;
 bottom: 0%;
 }
 
@@ -286,7 +286,7 @@ bottom: 0%;
 position: absolute;
 left: 2.5%;
 right: 0%;
-top: 28.3%;
+top: 27%;
 bottom: 0%;
 }
 
@@ -294,7 +294,7 @@ bottom: 0%;
   position: absolute;
   left: 2.5%;
   right: 0%;
-  top: 47.3%;
+  top: 47%;
   bottom: 0%;
 }
 
@@ -302,7 +302,7 @@ bottom: 0%;
   position: absolute;
   left: 2.5%;
   right: 0%;
-  top: 66.3%;
+  top: 66.5%;
   bottom: 0%;
 }
 
@@ -310,7 +310,7 @@ bottom: 0%;
   position: absolute;
   left: 2.5%;
   right: 0%;
-  top: 85.3%;
+  top: 86%;
   bottom: 0%;
 }
 

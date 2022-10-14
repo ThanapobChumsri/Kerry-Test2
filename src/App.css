@@ -38,15 +38,9 @@
 }
 
 .half-background {
-  position: absolute;
-  width: 731px;
-  height: 1024px;
-  left: 0px;
-  top: 0px;
-
-  /* Primary - 400 */
-
-  background: #f58d50;
+  position: relative;
+  background: linear-gradient(90deg, #f58d50 50%, #f5f5f5 50%);
+  height: 100vh;
 }
 
 .kerry-logo {
@@ -60,11 +54,9 @@
 }
 
 .box {
-  position: absolute;
+  position: relative;
   width: 750px;
   height: 820px;
-  left: 356px;
-  top: 102px;
 
   background: #ffffff;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
@@ -85,7 +77,7 @@
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: calc(100% + 0.8vmin);
   line-height: 36px;
   /* identical to box height, or 150% */
 
@@ -110,7 +102,7 @@
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: calc(37% + 0.8vmin);;
   line-height: 16px;
   /* or 114% */
 
@@ -131,7 +123,7 @@
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: calc(300% + 0.8vmin);;
   line-height: 92px;
   /* identical to box height */
 
